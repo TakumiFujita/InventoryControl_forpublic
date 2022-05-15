@@ -1,0 +1,87 @@
+﻿input {
+	max-width: 1000px;
+}
+
+#delete {
+	display: none;
+}
+
+.tBoxWidth {
+	width: 100px;
+}
+
+th, td {
+	text-align: center;
+	vertical-align: middle !important;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.btn-container {
+	margin-right: 3.5%;
+}
+
+.returnmonth-container {
+	margin-left: 33px;
+	margin-bottom: 12px;
+}
+
+.returnmonth {
+	margin-left: 15px;
+}
+
+.font-weight-nm {
+	font-weight: normal;
+}
+
+.returnAmount-container {
+	margin-right: 13.4%;
+}
+
+@media screen and (max-width: 1200px) {
+	.btn-container {
+		margin-right: 3%;
+	}
+
+	.returnmonth-container {
+		margin-left: 19px;
+	}
+
+	.returnAmount-container {
+		margin-right: 12.6%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.btn-container {
+		margin-right: 2%;
+	}
+
+	.returnmonth-container {
+		margin-left: 5px;
+	}
+
+	.returnAmount-container {
+		margin-right: 11.3%;
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+.returnQuantity {
+	text-align: right;
+	display: inline;
+}
+
+.IsDelete {
+	display: none;
+}
+
+.justify-content-end {
+	display: flex;
+	justify-content: flex-end;
+}
